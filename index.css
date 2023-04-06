@@ -1,0 +1,142 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.boxing-1{
+    width:200px;
+    height: 300px;
+   background-color: a; 
+     padding: 40px;
+    margin-top: 20px;
+ background-color: rgb(241, 163, 16);
+}
+.boxing-2{
+    width:200px;
+    height: 300px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color:rgb(43, 43, 92) ;
+}
+.boxing-3{
+    width:200px;
+    height: 300px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color:rgb(70, 60, 60);
+}
+button{
+color:rgb(85, 85, 88);
+font-size:10px;
+background:white;
+border-radius:15px;
+padding-bottom: 4%;
+margin-top: 60px;
+}
+span{
+    height: 20px;
+    width: 3%;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+}
+.btn1{
+    color:rgb(85, 85, 88);
+    font-size:10px;
+    background:white;
+    border-radius:15px;
+    padding-bottom: 4%;
+    margin-top: 60px; 
+    color: rgb(241, 163, 16);  
+    border: 1px solid white;
+    padding: 10px;
+}
+.btn2{
+    color:rgb(85, 85, 88);
+    font-size:10px;
+    background:white;
+    border-radius:15px;
+    padding-bottom: 4%;
+    margin-top: 60px; 
+    color:rgb(43, 43, 92);  
+    border: 1px solid white;
+    padding: 10px;   
+}
+.btn3{
+    color:rgb(85, 85, 88);
+    font-size:10px;
+    background:white;
+    border-radius:15px;
+    padding-bottom: 4%;
+    margin-top: 60px; 
+    color:rgb(43, 43, 92);  
+    border: 1px solid white;
+    padding: 10px;      
+}
+span i{
+padding-left: 15px;
+/* position: absolute; */
+}
+.head1{
+margin-top: 40px;
+font-size: 25px;
+
+}
+.head2{
+margin-top: 40px;
+font-size: 25px;
+}
+.head3{
+margin-top: 40px;
+font-size: 25px;
+}
+.para1{
+    font-size: 10px;
+    margin-top: 30px;
+}
+.para2{
+    font-size: 10px;
+    margin-top: 30px;
+}
+.para3{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:414px){
+    .container{
+    display:block;
+    margin-left: 17px;
+    width:5px;
+    margin-top: 40px;
+    /* margin:auto; */
+   
+
+    }
+    .boxing-1{
+    margin-left: 40px;
+    width:200px;
+    border-radius: 0 0 5px 5px;
+    height:300px;
+    }
+    .boxing-2{
+    margin-left: 40px;
+    width: 200px;
+    height: 300px;
+    border-radius: 0 0 5px 5px;
+    }
+    .boxing-3{
+    margin-left: 40px;
+    width:200px;
+    height:300px;
+    border-radius: 0 0 5px 5px;
+    }
+}
